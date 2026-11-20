@@ -15,4 +15,8 @@ Published reads use the public Sanity API and do not require a token. Drafts are
 excluded from portfolio queries. Responses are cached for 60 seconds, so a
 published change appears without a full rebuild after the cache window expires.
 
+Project repository links are stored in each published `project` document's
+`githubUrl` field. Update them through the Studio rather than hardcoding them
+in the application.
+
 No Sanity documents are created or published by this repository.
